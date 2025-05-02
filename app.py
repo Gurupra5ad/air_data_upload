@@ -34,7 +34,6 @@ st.markdown("""
         padding: 2rem;
     }
     .form-card {
-        background-color: white !important;
         color: black !important;
         padding: 2rem;
         border-radius: 15px;
@@ -177,3 +176,15 @@ Download File: {link}
 
             except Exception as e:
                 st.error(f"❌ Failed to send emails: {str(e)}")
+                
+
+st.markdown("""
+    <style>
+    #MainMenu {visibility: hidden;}
+    footer {visibility: hidden;}
+    header {visibility: hidden;}
+    .stDeployButton {display: none;}
+    .viewerBadge_container__1QSob {display: none !important;}
+    </style>
+""", unsafe_allow_html=True)
+
