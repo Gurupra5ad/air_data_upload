@@ -374,7 +374,7 @@ Download File: {link}
                     email_client.set_content(
                         "Dear User,\n\nYour data has been received successfully and is currently in queue for processing.\n"
                         "It typically takes up to 2 hours to generate the final report.\n\n"
-                        "Best regards,\nAIRA Automation Team"
+                        "Best regards,\nAIR Automation Team"
                     )
 
                     context = ssl.create_default_context()
