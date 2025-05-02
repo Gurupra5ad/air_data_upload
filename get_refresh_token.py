@@ -3,8 +3,8 @@ import webbrowser
 from http.server import HTTPServer, BaseHTTPRequestHandler
 import urllib.parse
 
-APP_KEY = "shlhxvxutvjtqhw"
-APP_SECRET = "wvdmikm3bik6m8u"
+APP_KEY = "app_key"
+APP_SECRET = "app_secret"
 REDIRECT_URI = "http://localhost:8080"
 
 # Start browser auth
